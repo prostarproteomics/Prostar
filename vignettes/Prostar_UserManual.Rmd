@@ -226,7 +226,7 @@ However, as soon as data are loaded in the software, new menus contextualy
 appear (see Section~\ref{sec:synopsis}).
 
 \begin{figure}
-    \includegraphics[width=\textwidth]{images/home.png}
+    \includegraphics[width=\textwidth]{figs/home.png}
     \caption{\Biocpkg{Prostar} home screen.}
     \label{fig:fig1}
 \end{figure}
@@ -274,7 +274,7 @@ on the upper right corner (which purpose is detailed in
 Section~\ref{sec:availabledatasets}).
 
 \begin{figure}
-    \includegraphics[width=1.00\textwidth]{images/load-pep.png}
+    \includegraphics[width=1.00\textwidth]{figs/load-pep.png}
     \caption{Screenshot illustrating the fully displayed navbar.}
     \label{fig:fig2}
 \end{figure}
@@ -522,7 +522,7 @@ If the quantification software uses *0* in places of missing values, tick
 the last option ``Replace all 0 and NaN by NA'' (as in \Biocpkg{Prostar}, 0 is 
 considered a value, not a missing value).
 \begin {figure}
-\includegraphics[width=\textwidth]{images/convert_selectfile.png}
+\includegraphics[width=\textwidth]{figs/convert_selectfile.png}
 \caption{File conversion, step 1.}\label{fig:imp1}
 \end {figure}
 
@@ -536,7 +536,7 @@ one, it is in addition important to indicate the column containing the IDs of
 the parent proteins, so as to prepare for future peptide to protein aggregation.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/convert_dataID.png}
+\includegraphics[width=\textwidth]{figs/convert_dataID.png}
 \caption{File conversion, step 2.}\label{fig:imp2}
 \end {figure}
 
@@ -558,7 +558,7 @@ only for a subset of samples, or a same identification method is referenced
 for two different samples), then a red mark appears, indicating some 
 corrections are mandatory.
 \begin {figure}
-\includegraphics[width=\textwidth]{images/convert_exp_featdata.png}
+\includegraphics[width=\textwidth]{figs/convert_exp_featdata.png}
 \caption{File conversion, step 3.}\label{fig:imp3}
 \end {figure}
 
@@ -581,7 +581,7 @@ the design table.}.
 Once the design is valid (a green check logo appears), move on to the last tab.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/convert_sampledata.png}
+\includegraphics[width=\textwidth]{figs/convert_sampledata.png}
 \caption{File conversion, step 4.}\label{fig:imp4}
 \end {figure}
 
@@ -598,7 +598,7 @@ to any red message appears below the \textbf{Convert data} button, which
 indicates a mistake or an incomplete parameter tuning that must be sorted out 
 before converting the data.
 \begin {figure}
-\includegraphics[width=\textwidth]{images/convert_convert.png}
+\includegraphics[width=\textwidth]{figs/convert_convert.png}
 \caption{Importing a CSV file, tab 5.}\label{fig:imp5}
 \end {figure}
 
@@ -606,7 +606,7 @@ before converting the data.
 \subsection{Demo mode} \label{sec:demomode}
 
 \begin{figure}
-\includegraphics[width=1.00\textwidth]{images/load-prot.png}
+\includegraphics[width=1.00\textwidth]{figs/load-prot.png}
 \caption{Loading a demo dataset.}
 \label{fig:demomodeFig}
 \end{figure}
@@ -642,7 +642,7 @@ appropriate directory.
 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/export.png}
+\includegraphics[width=\textwidth]{figs/export.png}
 \caption{Exporting to an Excel file.}\label{fig:export}
 \end {figure}
 
@@ -691,7 +691,7 @@ tagged, such as for instance reverse sequences in target-decoy approaches, or
 known contaminants, see tab 2).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/filter1.png}
+\includegraphics[width=\textwidth]{figs/filter1.png}
 \caption{Interface of the filtering tool - 1.}\label{fig:filter1}
 \end {figure}
 
@@ -723,7 +723,7 @@ does not modify the dataset but offers a preview of the filtered data. The
 user can visualize as many times he/she wants several filtering options.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/filter2.png}
+\includegraphics[width=\textwidth]{figs/filter2.png}
 \caption{Interface of the filtering tool - 2.}\label{fig:filter2}
 \end {figure}
 
@@ -758,7 +758,7 @@ If other string-based filters must be applied, iterate the same process as
 many times as necessary.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/filter3.png}
+\includegraphics[width=\textwidth]{figs/filter3.png}
 \caption{Interface of the filtering tool - 3.}\label{fig:filter3}
 \end {figure}
 
@@ -787,7 +787,7 @@ The last one depicts the distortion induced by the chosen normalization
 method on each sample.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/normalisation.png}
+\includegraphics[width=\textwidth]{figs/normalisation.png}
 \caption{Interface of the normalization tool.}\label{fig:norma}
 \end {figure}
 
@@ -966,7 +966,7 @@ As a consequence of the previous paragraph, in protein-level datasets,
 POVs, and an MNAR-devoted one for MECs.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/protein-POV.png}
+\includegraphics[width=\textwidth]{figs/protein-POV.png}
 \caption{POV imputation}\label{fig:prot-POV}
 \end {figure}
 
@@ -1067,7 +1067,7 @@ missing values is still used for the imputed values, so that at any moment,
 it is possible to trace which proteins were imputed.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/protein-MEC.png}
+\includegraphics[width=\textwidth]{figs/protein-MEC.png}
 \caption{POV imputation}\label{fig:prot-MEC}
 \end {figure}
 
@@ -1100,7 +1100,7 @@ also helpful to decide what is the main origin of missing values (MCAR or
 MNAR).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/peptide-basicImputation.png}
+\includegraphics[width=\textwidth]{figs/peptide-basicImputation.png}
 \caption{Interface of the imputation of missing values tool.}
 \label{fig:peptide-bimp}
 \end {figure}
@@ -1179,7 +1179,7 @@ Figure~\ref{fig:peptide-imp4p}). It works as follows:
 \end{enumerate}
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/peptide-imp4p.png}
+\includegraphics[width=\textwidth]{figs/peptide-imp4p.png}
 \caption{Interface of the imputation of missing values tool.}
 \label{fig:peptide-imp4p}
 \end {figure}
@@ -1219,7 +1219,7 @@ helpful to understand the distribution of shared peptides, as well as the
 peptide/protein relationships.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/aggregation.png}
+\includegraphics[width=\textwidth]{figs/aggregation.png}
 \caption{Aggregation screen}\label{fig:aggregation}
 \end {figure}
 
@@ -1298,7 +1298,7 @@ To do so, click on \textbf{Hypothesis testing} in the \textbf{Data processing}
 menu (see Figure~\ref{fig:hp}). 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/hp.png}
+\includegraphics[width=\textwidth]{figs/hp.png}
 \caption{Hypothesis testing step}
 \label{fig:hp}
 \end {figure}
@@ -1344,7 +1344,7 @@ It roughly amounts to the data summary that is displayed along with each demo
 dataset (see Section~\ref{sec:demomode}).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/descstat-overview.png}
+\includegraphics[width=\textwidth]{figs/descstat-overview.png}
 \caption{Home screen of the Descriptive statistics menu}\label{fig:sdov}
 \end {figure}
 
@@ -1362,7 +1362,7 @@ represented in the last barplot while not on the second one (to avoid a too
 large Y-scale).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_missValues.png}
+\includegraphics[width=\textwidth]{figs/desc_missValues.png}
 \caption{Histrograms for the overview of the missing values}\label{fig:sdmv}
 \end {figure}
 
@@ -1374,7 +1374,7 @@ menu. The first one, named \textbf{Quantitative data} contains the intensity
 values (see Figure~\ref{fig:sdqv1}). 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_quantiData.png}
+\includegraphics[width=\textwidth]{figs/desc_quantiData.png}
 \caption{View of quantitative data in the MSnSet dataset}\label{fig:sdqv1}
 \end {figure}
 
@@ -1383,7 +1383,7 @@ referred to \textbf{Protein metadata}. It contains all the column dataset that
 are not the quantitative data (see Figure~\ref{fig:sdqv2}). 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_fdata.png}
+\includegraphics[width=\textwidth]{figs/desc_fdata.png}
 \caption{View of feature meta-data in the MSnSet dataset}\label{fig:sdqv2}
 \end {figure}
 
@@ -1392,7 +1392,7 @@ design, as defined when converting the data (see Section~\ref{sec:import}).
 
 
 \begin {figure}
-\includegraphics{images/desc_pdata.png}
+\includegraphics{figs/desc_pdata.png}
 \caption{View of samples meta-data in the MSnSet dataset}\label{fig:sdqv3}
 \end {figure}
 
@@ -1403,7 +1403,7 @@ correlate or not (see Figure~\ref{fig:sdcm}). The contrast of the correlation
 matrix can be tuned thanks to the color scale on the left hand side menu.
 
 \begin {figure}
-\includegraphics{images/desc_corrmatrix.png}
+\includegraphics{figs/desc_corrmatrix.png}
 \caption{Correlation matrix for the quantitative data.}\label{fig:sdcm}
 \end {figure}
 
@@ -1425,14 +1425,14 @@ function (default is \emph{'complete'}).
 \end {itemize}
 
 \begin {figure}
-\includegraphics{images/desc_heatmap.png}
+\includegraphics{figs/desc_heatmap.png}
 \caption{Heatmap and dendrogram for the quantitative data.}\label{fig:sdhm}
 \end {figure}
 
 \subsubsection {PCA}\label{sec:pca}
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_PCA.png}
+\includegraphics[width=\textwidth]{figs/desc_PCA.png}
 \caption{Principal compenent analysis tab.}\label{fig:pca}
 \end {figure}
 
@@ -1453,7 +1453,7 @@ possible to ajust the plot legends, as well as to specify the color code
 (one color per condition or per sample).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_intdistrib.png}
+\includegraphics[width=\textwidth]{figs/desc_intdistrib.png}
 \caption{Densityplot the quantitative data.}\label{fig:sddp}
 \end {figure}
 
@@ -1470,12 +1470,12 @@ However, it is possible to interactively zoom in on any part of the plot by
 clicking and dragging (see Figure~\ref{fig:sdvdZoomIn}).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_CVDist_ZoomOut.png}
+\includegraphics[width=\textwidth]{figs/desc_CVDist_ZoomOut.png}
 \caption{CV distribution for the quantitative data.}\label{fig:sdvdZoomOut}
 \end {figure}
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/desc_CVDist_ZoomIn.png}
+\includegraphics[width=\textwidth]{figs/desc_CVDist_ZoomIn.png}
 \caption{Zoom in of the CV distribution for the quantitative data.}
 \label{fig:sdvdZoomIn}
 \end {figure}
@@ -1507,7 +1507,7 @@ Possibly, swap the FC axis with the corresponding tick-box, depending on
 layout preferences. Possibly, push some p-values to 1, as detailed in 
 Section~\ref{sec:pushpval} (see Figure~\ref{fig:pushpval}). 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/pushpval.png}
+\includegraphics[width=\textwidth]{figs/pushpval.png}
 \caption{Differential analysis - Tab 1}\label{fig:pushpval}
 \end {figure}
 
@@ -1519,7 +1519,7 @@ the data.}, tune the calibration method, as as detailed in
 Section~\ref{sec:cp4p}.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/cp4p-default.png}
+\includegraphics[width=\textwidth]{figs/cp4p-default.png}
 \caption{Differential analysis - Tab 2}\label{fig:cp4p-default}
 \end {figure}
 
@@ -1540,7 +1540,7 @@ only the differentially abundant ones. The volcano plot can be saved thanks to
 the menu available in the upper right corner of the plot.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/fdr-thresh.png}
+\includegraphics[width=\textwidth]{figs/fdr-thresh.png}
 \caption{Differential analysis - Tab 3}\label{fig:fdr-thresh}
 \end {figure}
 
@@ -1549,7 +1549,7 @@ comprehensive overview of the differential analysis parameters (see
 Figure~\ref{fig:anadiffsum}). If necessary copy/paste this table for later use.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/anadiffsum.png}
+\includegraphics[width=\textwidth]{figs/anadiffsum.png}
 \caption{Differential analysis - Tab 4}\label{fig:anadiffsum}
 \end {figure}
 
@@ -1604,7 +1604,7 @@ appealing p-value), it makes sense to discard it.
 \subsubsection{Focus on: Calibration plots}\label{sec:cp4p}
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/cp4p-ideal.png}
+\includegraphics[width=\textwidth]{figs/cp4p-ideal.png}
 \caption{The ideal case of well calibrated p-values}\label{fig:cp4p-ideal}
 \end {figure}
 
@@ -1626,13 +1626,13 @@ hand side increase is real: both can be noticed thanks to colored caption
 last caption, in blue, being $\pi_0$).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/cp4p-pb1.png}
+\includegraphics[width=\textwidth]{figs/cp4p-pb1.png}
 \caption{Badly calibrated p-values, case 1}\label{fig:cp4p-pb1}
 \end {figure}
 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/cp4p-pb2.png}
+\includegraphics[width=\textwidth]{figs/cp4p-pb2.png}
 \caption{Badly calibrated p-values, case 2}\label{fig:cp4p-pb2}
 \end {figure}
 
@@ -1650,7 +1650,7 @@ options (corresponding to the safer case of $\pi_0=1$), which is not
 represented on the graph for it always corresponds to a diagonal line.
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/cp4p-choice.png}
+\includegraphics[width=\textwidth]{figs/cp4p-choice.png}
 \caption{Tuning the $\pi_0$ estimate}\label{fig:cp4p-choice}
 \end {figure}
 
@@ -1687,7 +1687,7 @@ with four separated tabs (see Figure~\ref{fig:GO_tab1}):
 \end{itemize}
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/GO_tab1.png}
+\includegraphics[width=\textwidth]{figs/GO_tab1.png}
 \caption{GO Setup tab}\label{fig:GO_tab1}
 \end {figure}
 
@@ -1719,7 +1719,7 @@ The graphics shows the most represented GO categories for a user-defined
 ontology at (a) user-defined level(s).
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/GO_tab2.png}
+\includegraphics[width=\textwidth]{figs/GO_tab2.png}
 \caption{GO classification tab}\label{fig:GO_tab2}
 \end {figure}
 
@@ -1742,7 +1742,7 @@ line).
 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/GO_tab3.png}
+\includegraphics[width=\textwidth]{figs/GO_tab3.png}
 \caption{GO enrichment tab}\label{fig:GO_tab3}
 \end {figure}
 
@@ -1779,7 +1779,7 @@ As usual in Prostar, it is possible to export this new dataset via the
 manager} menu, either in MSnSet or in Excel format. 
 
 \begin {figure}
-\includegraphics[width=\textwidth]{images/GO_tab4.png}
+\includegraphics[width=\textwidth]{figs/GO_tab4.png}
 \caption{GO analysis summary}\label{fig:GO_tab4}
 \end {figure}
 

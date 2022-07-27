@@ -822,7 +822,7 @@ mod_cc_server <- function(id, obj, cc) {
                         scroller = TRUE,
                         orderClasses = TRUE,
                         autoWidth = FALSE,
-                        columns.searchable = F,
+                        columns.searchable = FALSE,
                         columnDefs = list(list(
                             width = c("60px"),
                             targets = c(list(0), list(1), list(2))

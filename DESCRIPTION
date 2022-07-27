@@ -1,8 +1,8 @@
 Package: Prostar
 Type: Package
-Title: Provides a GUI for DAPAR
-Version: 1.29.1
-Date: 2022-06-17
+Title: A GUI for DAPAR package
+Version: 1.28.4
+Date: 2022-07-21
 Authors@R: c(
     person("Thomas", "Burger", email = "thomas.burger@cea.fr", role = c("aut")),
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
@@ -20,15 +20,15 @@ Description: This package provides a GUI interface for the DAPAR package. The
 biocViews: Proteomics, MassSpectrometry, Normalization, Preprocessing, 
     Software, GUI
 License: Artistic-2.0
-Depends: R (>= 4.2.0)
-Suggests: BiocStyle, BiocManager, testthat, shinyTree, knitr
-Imports: DAPAR (>= 1.27.7), DAPARdata (>= 1.22.2), rhandsontable, 
-    data.table, shinyjs, DT, shiny, shinyBS, shinyAce, highcharter, 
-    htmlwidgets, webshot, R.utils, shinythemes, XML,later, gtools, 
-    shinycssloaders, future, promises, colourpicker, shinyjqui, 
-    shinyWidgets, sass, tibble, MSnbase, RColorBrewer, ggplot2, gplots, vioplot
+Depends: R (>= 4.1.0)
+Suggests: BiocStyle, BiocManager, testthat, shinyTree, knitr, future, sass, 
+    R.utils, gplots, ggplot2, vioplot, promises, colourpicker, tibble,
+    DAPARdata (>= 1.22.2), webshot, shinythemes, XML, gtools, compiler
+Imports: DAPAR (>= 1.28.5), rhandsontable, data.table, shinyjs, DT, shiny, 
+    shinyBS, shinyAce, highcharter, MSnbase, shinyWidgets, shinycssloaders,
+    htmlwidgets, RColorBrewer, shinyjqui, later
 NeedsCompilation: no
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Packaged: 2017-10-13 06:25:55 UTC; sw175264
 Encoding: UTF-8
 URL: http://www.prostar-proteomics.org/

@@ -16,6 +16,6 @@ context("Prostar")
 # })
 
 
-test_that("Opening Prostar 2", {
-    expect_null(Prostar())
-})
+# test_that("Opening Prostar 2", {
+#     expect_null(Prostar())
+# })

@@ -42,7 +42,8 @@ server <- shinyServer(function(session, input, output) {
   })
   
   
-  observeEvent(input[['colForOriginValue_1']], ignoreInit = T, ignoreNULL = F, {
+  observeEvent(input[['colForOriginValue_1']], 
+    ignoreInit = TRUE, ignoreNULL = FALSE, {
     print(input[['colForOriginValue_1']])
     
     lapply(2:n, function(i) {

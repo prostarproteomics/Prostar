@@ -1,12 +1,13 @@
 rm(list = ls())
 
-options(shiny.maxRequestSize = 300 * 1024^2)
-options(encoding = "UTF-8")
+options(
+    shiny.maxRequestSize = 300 * 1024^2,
+    encoding = "UTF-8",
+    shiny.fullstacktrace = TRUE
+    )
 
-options(shiny.fullstacktrace = T)
-
-require(compiler)
-enableJIT(3)
+library(compiler)
+compiler::enableJIT(3)
 
 source(file.path("ui", "ui_Configure.R"), local = TRUE)$value
 

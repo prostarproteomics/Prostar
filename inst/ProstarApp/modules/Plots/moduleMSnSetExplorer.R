@@ -181,7 +181,7 @@ MSnSetExplorer <- function(input, output, session, data) {
                         scrollX = 200,
                         scrollY = 200,
                         scroller = TRUE,
-                        columns.searchable = F,
+                        columns.searchable = FALSE,
                         fixedColumns = list(leftColumns = 1),
                         columnDefs = list(list(
                             width = c("60px"),
@@ -215,7 +215,7 @@ MSnSetExplorer <- function(input, output, session, data) {
                         scroller = TRUE,
                         orderClasses = TRUE,
                         autoWidth = FALSE,
-                        columns.searchable = F,
+                        columns.searchable = FALSE,
                         fixedColumns = list(leftColumns = 1),
                         columnDefs = list(list(
                             width = c("60px"),

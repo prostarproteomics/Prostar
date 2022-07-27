@@ -164,17 +164,17 @@ observeEvent(c(input$file1, input$XLSsheets), {
         switch(ext,
             txt = {
                 rv$tab1 <- read.csv(input$file1$datapath,
-                    header = TRUE, sep = "\t", as.is = T
+                    header = TRUE, sep = "\t", as.is = TRUE
                 )
             },
             csv = {
                 rv$tab1 <- read.csv(input$file1$datapath,
-                    header = TRUE, sep = ";", as.is = T
+                    header = TRUE, sep = ";", as.is = TRUE
                 )
             },
             tsv = {
                 rv$tab1 <- read.csv(input$file1$datapath,
-                    header = TRUE, sep = "\t", as.is = T
+                    header = TRUE, sep = "\t", as.is = TRUE
                 )
             },
             xls = {
@@ -412,7 +412,8 @@ output$inputGroup <- renderUI({
 })
 
 
-observeEvent(input[["colForOriginValue_1"]], ignoreInit = T, ignoreNULL = F, {
+observeEvent(input[["colForOriginValue_1"]], 
+  ignoreInit = TRUE, ignoreNULL = FALSE, {
     n <- length(input$choose_quantitative_columns)
     lapply(seq(2, n), function(i) {
         inputName <- paste("colForOriginValue_", i, sep = "")

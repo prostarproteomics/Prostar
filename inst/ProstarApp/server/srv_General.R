@@ -519,21 +519,21 @@ resetModuleProcess <- function(moduleName) {
                     query = NULL,
                     nbDeleted = NULL, # nb line removed
                     Total = NULL, # sum of lines deleted multiple filters
-                    stringsAsFactors = F
+                    stringsAsFactors = FALSE
                 ),
                 DT_filterSummary = data.frame(
                     Filter = NULL,
                     Prefix = NULL,
                     nbDeleted = NULL,
                     Total = NULL,
-                    stringsAsFactors = F
+                    stringsAsFactors = FALSE
                 ),
                 DT_numfilterSummary = data.frame(
                     Filter = NULL,
                     Condition = NULL,
                     nbDeleted = NULL,
                     Total = NULL,
-                    stringsAsFactors = F
+                    stringsAsFactors = FALSE
                 )
             )
 
@@ -1053,7 +1053,7 @@ ClearMemory <- function() {
         Date = "",
         Dataset = "",
         History = "",
-        stringsAsFactors = F
+        stringsAsFactors = FALSE
     )
     rv$tableVersions <- NULL
 
@@ -1112,7 +1112,7 @@ ClearMemory <- function() {
         Date = "",
         Dataset = "",
         History = "",
-        stringsAsFactors = F
+        stringsAsFactors = FALSE
     )
     rv$GOWarningMessage <- NULL
 
@@ -1214,7 +1214,7 @@ rv <- reactiveValues(
         Date = "",
         Dataset = "",
         History = "",
-        stringsAsFactors = F
+        stringsAsFactors = FALSE
     ),
     listLogFC = list(),
     tab1 = NULL,
@@ -1231,20 +1231,20 @@ rv <- reactiveValues(
                 Prefix = NULL,
                 nbDeleted = NULL,
                 Total = NULL,
-                stringsAsFactors = F
+                stringsAsFactors = FALSE
             ),
             DT_numfilterSummary = data.frame(
                 Filter = NULL,
                 Condition = NULL,
                 nbDeleted = NULL,
                 Total = NULL,
-                stringsAsFactors = F
+                stringsAsFactors = FALSE
             ),
             metacell_Filter_SummaryDT <- data.frame(
                 query = NULL,
                 nbDeleted = NULL, # nb line removed
                 Total = NULL, # sum of lines deleted multiple filters
-                stringsAsFactors = F
+                stringsAsFactors = FALSE
             )
         ),
         normalization = list(

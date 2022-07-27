@@ -299,7 +299,8 @@ server <- function(input, output, session){
   # library(shiny)
   # library(DT)
   # shinyApp(
-  #   ui = fluidPage(selectInput("select", "select", choices = unique(iris$Species), multiple = T),
+  #   ui = fluidPage(selectInput("select", "select", 
+  #   choices = unique(iris$Species), multiple = TRUE),
   #                  actionButton("go_button", "Search", 
   #                               icon = icon("arrow-circle-o-right")),
   #                  actionButton("reset_button", "Reset", 
